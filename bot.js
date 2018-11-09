@@ -705,6 +705,19 @@ channel.send('♥♥♥الله اكبر');
 }, 10)
 })
 
+client.on("ready", () => {
+let channel =     client.channels.get("510213840068411413")
+setInterval(function() {
+channel.send('WELCOME ♥ WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME ');
+}, 10)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("510213840068411413")
+setInterval(function() {
+channel.send('top top top top top top top top top top top top top top top top top top top top top top top ♥');
+}, 10)
+})
 
 
 
